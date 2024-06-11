@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traversing</title>
+    <style>
+        .parent{
+            font-size: 3em;
+            border: 1px solid red;
+            padding: 10px;
+        }
+        .child{
+            border: 1px solid green;
+            padding: 10px;
+        }
+        .grandchild{
+            border: 1px dashed blue;
+            padding: 10px;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="parent">
+        Parent
+        <div class="child">
+            Child1
+            <div class="grandchild">Grandchild1_1</div>
+            <div class="grandchild">Grandchild1_2</div>
+            <div class="grandchild">Grandchild1_3</div>
+        </div>
+        <div class="child">
+            Child2
+            <div class="grandchild">Grandchild2_1</div>
+            <div class="grandchild">Grandchild2_1</div>
+            <div class="grandchild">Grandchild2_1</div>
+        </div>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
